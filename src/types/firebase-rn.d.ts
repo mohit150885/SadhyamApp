@@ -1,0 +1,11 @@
+// The React Native build of Firebase Auth exports getReactNativePersistence,
+// but the public `firebase/auth` typings only describe the browser build.
+import type { Persistence } from "firebase/auth";
+
+declare module "firebase/auth" {
+    export function getReactNativePersistence(storage: {
+        setItem(key: string, value: string): Promise<void>;
+        getItem(key: string): Promise<string | null>;
+        removeItem(key: string): Promise<void>;
+    }): Persistence;
+}

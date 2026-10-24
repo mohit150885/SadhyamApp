@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "991970340826",
+    "firebase_url": "https://sadhyam-20d5a-default-rtdb.firebaseio.com",
+    "project_id": "sadhyam-20d5a",
+    "storage_bucket": "sadhyam-20d5a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:991970340826:android:4e3fe466bf31c43b459ae3",
+        "android_client_info": {
+          "package_name": "com.sadhyamias.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "991970340826-a3p2ktee56fo0g2hfvli61fhddrkp732.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA51b1gItfkdOL5tAOH8isB_53PThCmnCw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "991970340826-a3p2ktee56fo0g2hfvli61fhddrkp732.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
